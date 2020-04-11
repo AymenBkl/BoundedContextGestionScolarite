@@ -4,10 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.HashMap;
+import java.util.List;
 
 @Entity
 @Data
@@ -20,5 +19,7 @@ public class Formation {
     private Long idFormation;
     private String nom;
     private int duree;
+    @Transient
+    private HashMap<String,String> Students;
 
 }

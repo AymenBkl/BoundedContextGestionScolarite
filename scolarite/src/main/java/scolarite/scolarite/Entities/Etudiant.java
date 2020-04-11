@@ -3,7 +3,9 @@ package scolarite.scolarite.Entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import scolarite.scolarite.models.EtudiantVirement;
 import scolarite.scolarite.models.Formation;
+import scolarite.scolarite.models.Virement;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -32,4 +34,10 @@ public class Etudiant {
 
     @Transient
     Formation formation;
+    @Transient
+    private Long idVirement;
+    @Transient
+    private Long CCP;
+    @Transient
+    private Date datevirement;
 }

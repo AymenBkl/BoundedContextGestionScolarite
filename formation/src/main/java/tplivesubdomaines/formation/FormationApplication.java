@@ -4,11 +4,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import tplivesubdomaines.formation.Entities.Formation;
 import tplivesubdomaines.formation.doa.FormationRepository;
 
 @SpringBootApplication
+@EnableFeignClients
 public class FormationApplication implements CommandLineRunner {
     @Autowired
     FormationRepository formationrepo;
@@ -22,7 +24,7 @@ public class FormationApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         reporestconf.exposeIdsFor(Formation.class);
-        Formation f1=  formationrepo.save(new Formation(null, "Java",30));
-        Formation f2= formationrepo.save(new Formation(null, "Angular",40));
+        Formation f1=  formationrepo.save(new Formation(null, "Java",30,null,null));
+        Formation f2= formationrepo.save(new Formation(null, "Angular",40,null,null));
     }
 }

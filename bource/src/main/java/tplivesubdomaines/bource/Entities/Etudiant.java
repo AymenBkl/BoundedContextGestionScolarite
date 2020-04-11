@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
@@ -20,5 +21,13 @@ public class Etudiant {
     private boolean SituationImp;
     @ManyToOne
     private Virement virement;
+    @Transient
+    private String nom;
+    @Transient
+    private String promo;
+    @Transient
+    private Date dateinsciption;
+    @Transient
+    private String nomEtablissment;
 
 }
