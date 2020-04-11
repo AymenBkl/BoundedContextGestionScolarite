@@ -27,9 +27,9 @@ public class ScolariteApi {
         Etudiant etudiant = etudiantrepo.findById(idf).get();
         Formation formation = formationproxy.getFormation(etudiant.getIdFormation());
         EtudiantVirement ev = virementproxy.getEtudiantV(idf);
-        Virement virement = virementproxy.getVirement(ev.getVirement().getIdVirement());
+        Virement virement = virementproxy.getVirement(ev.getVirement().getIdvirement());
         etudiant.setFormation(formation);
-        etudiant.setIdVirement(virement.getIdVirement());
+        etudiant.setIdVirement(virement.getIdvirement());
         etudiant.setCCP(ev.getCCP());
         etudiant.setDatevirement(virement.getDatevirement());
         return etudiant;
