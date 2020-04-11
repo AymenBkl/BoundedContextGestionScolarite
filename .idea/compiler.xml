@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bource" />
+        <module name="formation" />
+        <module name="scolarite" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bource" target="1.8" />
+      <module name="formation" target="1.8" />
+      <module name="scolarite" target="1.8" />
+      <module name="scolarité" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
