@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
     import scolarite.scolarite.models.Formation;
-@FeignClient(name = "ms-formation",url="localhost:8081")
+@FeignClient(name = "ms-formation",url="localhost:8082")
 public interface Formationproxy {
     @GetMapping("/formations/{id}")
     public Formation getFormation(@PathVariable("id") Long idf);

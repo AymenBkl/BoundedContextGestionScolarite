@@ -24,7 +24,7 @@ public class FormationApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         reporestconf.exposeIdsFor(Formation.class);
-        Formation f1=  formationrepo.save(new Formation(null, "Java",30,null,null));
-        Formation f2= formationrepo.save(new Formation(null, "Angular",40,null,null));
+        Formation f1=  formationrepo.save(new Formation(null, "Java",30,null));
+        Formation f2= formationrepo.save(new Formation(null, "Angular",40,null));
     }
 }
