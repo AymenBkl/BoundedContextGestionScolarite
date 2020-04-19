@@ -19,38 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eebca786-03ad-44f8-8c0e-752d7f818cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/Entities/VirmentProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/Entities/BourceProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/Entities/FormationProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/models/Virment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="eebca786-03ad-44f8-8c0e-752d7f818cc2" name="Default Changelist" comment="Final Touches">
+      <change afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/Controller/ScolariteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/BourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/BourceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/Entities/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/Entities/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/Entities/Virement.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/Entities/Virement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/ScolariteProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/ScolariteProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/apiController/BourceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/apiController/BourceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/doe/VirementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/doe/VirementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/models/Etablisment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/models/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/bource/src/main/java/tplivesubdomaines/bource/models/Etudiant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/ControllerApi/Formationapi.java" beforeDir="false" afterPath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/ControllerApi/Formationapi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/Entities/Formation.java" beforeDir="false" afterPath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/Entities/Formation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/doa/EtudiantRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/models/Etablissment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/models/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/models/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/proxy/Scolarite.java" beforeDir="false" afterPath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/proxy/Scolarite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/doa/FormationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/formation/src/main/java/tplivesubdomaines/formation/doa/FormationRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/ControllerApi/ScolariteApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/ControllerApi/ScolariteApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/Entities/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/Entities/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/ScolariteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/ScolariteApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/doe/EtablismentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/doe/EtablismentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/doe/EtudiantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/doe/EtudiantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/models/EtudiantVirement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/models/Virement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/proxy/VirementProy.java" beforeDir="false" afterPath="$PROJECT_DIR$/scolarite/src/main/java/scolarite/scolarite/proxy/VirementProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +98,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ScolariteApplication">
+  <component name="RunManager" selected="Spring Boot.FormationApplication">
     <configuration name="BourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bource" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tplivesubdomaines.bource.BourceApplication" />
@@ -165,7 +140,7 @@
       <updated>1587230024523</updated>
       <workItem from="1587239187188" duration="497000" />
       <workItem from="1587239760385" duration="1605000" />
-      <workItem from="1587269658273" duration="8619000" />
+      <workItem from="1587269658273" duration="10860000" />
     </task>
     <servers />
   </component>
@@ -184,6 +159,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Touches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Touches" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="300" y="0" width="695" height="720" key="#ScolaritéApplication" timestamp="1587277739143">
       <screen x="0" y="0" width="1280" height="720" />
@@ -197,38 +176,38 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="372" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1587277396561" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1587278441825">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1587281225155">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587278441825" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1587278441825">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587281225155" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1587281225154">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587278441825" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1587278441825">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587281225154" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1587281225154">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587278441825" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1587278441825">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587281225154" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1587281225155">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587278441825" />
-    <state width="1237" height="176" key="GridCell.Tab.1.bottom" timestamp="1587278441827">
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587281225155" />
+    <state width="1237" height="176" key="GridCell.Tab.1.bottom" timestamp="1587281225156">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587278441827" />
-    <state width="1237" height="176" key="GridCell.Tab.1.center" timestamp="1587278441826">
+    <state width="1237" height="176" key="GridCell.Tab.1.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587281225156" />
+    <state width="1237" height="176" key="GridCell.Tab.1.center" timestamp="1587281225155">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1587278441826" />
-    <state width="1237" height="176" key="GridCell.Tab.1.left" timestamp="1587278441826">
+    <state width="1237" height="176" key="GridCell.Tab.1.center/0.0.1280.720@0.0.1280.720" timestamp="1587281225155" />
+    <state width="1237" height="176" key="GridCell.Tab.1.left" timestamp="1587281225155">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1587278441826" />
-    <state width="1237" height="176" key="GridCell.Tab.1.right" timestamp="1587278441826">
+    <state width="1237" height="176" key="GridCell.Tab.1.left/0.0.1280.720@0.0.1280.720" timestamp="1587281225155" />
+    <state width="1237" height="176" key="GridCell.Tab.1.right" timestamp="1587281225155">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1587278441826" />
+    <state width="1237" height="176" key="GridCell.Tab.1.right/0.0.1280.720@0.0.1280.720" timestamp="1587281225155" />
     <state x="222" y="96" key="IDE.errors.dialog" timestamp="1587273629461">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

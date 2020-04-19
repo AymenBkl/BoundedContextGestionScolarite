@@ -10,6 +10,7 @@ import tplivesubdomaines.formation.doa.FormationRepository;
 import tplivesubdomaines.formation.models.Etudiant;
 import tplivesubdomaines.formation.proxy.Scolarite;
 
+import java.text.Normalizer;
 import java.util.List;
 
 @RestController
@@ -26,6 +27,15 @@ public class Formationapi {
         Formation formation = formationrepo.findById(idf).get();
         formation.setLesetudiant(scolariteproxy.getEtudiant(idf,"ftoe"));
         return formation;
+    }
+    @GetMapping("/formations")
+    public List<Formation> getFormation(){
+        List<Formation> formations = formationrepo.findAll();
+        for (Formation formation : formations){
+            Long idFormation = formation.getIdFormation();
+            formation.setLesetudiant(scolariteproxy.getEtudiant(idFormation,"ftoe"));
+        }
+        return formations;
     }
 
 }

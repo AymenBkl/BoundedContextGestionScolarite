@@ -10,6 +10,8 @@ import scolarite.scolarite.doe.EtudiantRepository;
 import scolarite.scolarite.proxy.Formationproxy;
 import scolarite.scolarite.proxy.VirementProxy;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("api")
 public class ScolariteApi {
@@ -26,5 +28,15 @@ public class ScolariteApi {
         etudiant.setFormation(formationproxy.getFormation(idEtudiant));
         etudiant.setVirments(virmentproxy.getVirment(idEtudiant,"virmentprojection"));
         return etudiant;
+    }
+    @GetMapping("/etudiants")
+    public List<Etudiant> getAllEtudiant(){
+        List<Etudiant> etudiants = etudiantrepo.findAll();
+        for (Etudiant etudiant : etudiants){
+            Long idEtudiant = etudiant.getIdEtudiant();
+            etudiant.setFormation(formationproxy.getFormation(idEtudiant));
+            etudiant.setVirments(virmentproxy.getVirment(idEtudiant,"virmentprojection"));
+        }
+        return etudiants;
     }
 }

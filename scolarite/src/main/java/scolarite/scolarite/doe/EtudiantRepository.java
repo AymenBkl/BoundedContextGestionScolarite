@@ -11,6 +11,6 @@ import java.util.List;
 @RepositoryRestResource
 
 public interface EtudiantRepository extends JpaRepository<Etudiant,Long> {
-    List<Etudiant> findEtudiantByIdFormation(Long idf);
+    List<Etudiant> findEtudiantsByIdFormation(Long idf);
     Etudiant findEtudiantByIdEtudiant(Long ide);
 }
