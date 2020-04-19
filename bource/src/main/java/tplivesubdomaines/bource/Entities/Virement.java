@@ -14,10 +14,9 @@ public class Virement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idvirement;
-    @Column(name = "montant",nullable = false)
     private Long montatns;
     @Temporal(TemporalType.DATE)
     private Date datevirement;
-    @OneToMany(mappedBy = "virement")
-    private List<Etudiant> etudiants;
+    @ManyToOne
+    private Etudiant etudiant;
 }

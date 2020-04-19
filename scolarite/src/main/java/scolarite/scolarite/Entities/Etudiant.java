@@ -3,9 +3,9 @@ package scolarite.scolarite.Entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import scolarite.scolarite.models.EtudiantVirement;
+import org.springframework.hateoas.CollectionModel;
 import scolarite.scolarite.models.Formation;
-import scolarite.scolarite.models.Virement;
+import scolarite.scolarite.models.Virment;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -33,11 +33,7 @@ public class Etudiant {
     private Long idFormation;
 
     @Transient
-    Formation formation;
+    private Formation formation;
     @Transient
-    private Long idVirement;
-    @Transient
-    private Long CCP;
-    @Transient
-    private Date datevirement;
+    private CollectionModel<Virment> virments;
 }

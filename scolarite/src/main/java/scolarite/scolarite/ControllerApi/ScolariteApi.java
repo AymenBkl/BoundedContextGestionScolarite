@@ -7,11 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import scolarite.scolarite.Entities.Etudiant;
 import scolarite.scolarite.doe.EtudiantRepository;
-import scolarite.scolarite.models.EtudiantVirement;
-import scolarite.scolarite.models.Formation;
-import scolarite.scolarite.models.Virement;
 import scolarite.scolarite.proxy.Formationproxy;
-import scolarite.scolarite.proxy.VirementProy;
+import scolarite.scolarite.proxy.VirementProxy;
 
 @RestController
 @RequestMapping("api")
@@ -21,17 +18,13 @@ public class ScolariteApi {
     @Autowired
     Formationproxy formationproxy;
     @Autowired
-    VirementProy virementproxy;
-    @GetMapping("etudiant/{id}")
+    VirementProxy virmentproxy;
+    @GetMapping("/etudiants/{id}")
     public Etudiant getEtudiantById(@PathVariable("id") Long idf){
         Etudiant etudiant = etudiantrepo.findById(idf).get();
-        Formation formation = formationproxy.getFormation(etudiant.getIdFormation());
-        EtudiantVirement ev = virementproxy.getEtudiantV(idf);
-        Virement virement = virementproxy.getVirement(ev.getVirement().getIdvirement());
-        etudiant.setFormation(formation);
-        etudiant.setIdVirement(virement.getIdvirement());
-        etudiant.setCCP(ev.getCCP());
-        etudiant.setDatevirement(virement.getDatevirement());
+        Long idEtudiant = etudiant.getIdEtudiant();
+        etudiant.setFormation(formationproxy.getFormation(idEtudiant));
+        etudiant.setVirments(virmentproxy.getVirment(idEtudiant,"virmentprojection"));
         return etudiant;
     }
 }

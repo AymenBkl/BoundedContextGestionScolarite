@@ -3,6 +3,8 @@ package tplivesubdomaines.formation.Entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.hateoas.CollectionModel;
+import tplivesubdomaines.formation.models.Etudiant;
 
 import javax.persistence.*;
 import java.util.HashMap;
@@ -20,6 +22,6 @@ public class Formation {
     private String nom;
     private int duree;
     @Transient
-    private HashMap<String,String> Students;
+    private CollectionModel<Etudiant> lesetudiant;
 
 }
